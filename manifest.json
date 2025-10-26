@@ -1,16 +1,21 @@
-<!doctype html>
-<html lang="fa" dir="rtl">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>تست لود</title>
-    <style>
-      body{margin:0;height:100vh;display:flex;align-items:center;justify-content:center;
-           background:#111827;color:#fff;font-family:system-ui,Segoe UI,Roboto}
-      h1{font-size:28px}
-    </style>
-  </head>
-  <body>
-    <h1>صفحه با موفقیت لود شد ✅</h1>
-  </body>
-</html>
+{
+  "name": "ماشین‌حساب مظنه",
+  "short_name": "مظنه",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#111827",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
